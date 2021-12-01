@@ -1,8 +1,8 @@
 import pandas as pd
 
 # lectura de un archivo csv
-# df = pd.read_csv("http://leoparada.com/data/data_frame_2.csv")
-df = pd.read_csv("data_frame_2.csv")
+df = pd.read_csv("http://leoparada.com/data/data_frame_2.csv")
+#df = pd.read_csv("data_frame_2.csv")
 #list(df) = ['nombre', 'apellido', 'rut', ' edad', 'curso']
 cabeceras = list(df.columns)
 # convertir a mayusculas el HEADER
